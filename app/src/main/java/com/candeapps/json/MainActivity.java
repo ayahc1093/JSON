@@ -23,8 +23,8 @@ public class MainActivity extends Activity {
     private EditText etSefer;
     private EditText etPerek;
     private TextView tvOutput;
-    String[] pasukEnglish  = null;
-    String pasukHebrew = null;
+    //String[] pasukEnglish  = null;
+    //String pasukHebrew = null;
 
     private String base_url = "http://www.sefaria.org/api/texts/";
 
