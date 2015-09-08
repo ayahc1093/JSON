@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
     public void getText(View v) {
         String sefer = etSefer.getText().toString();
         String perek = etPerek.getText().toString();
-        String urlString = base_url + sefer.trim() + "." + perek.trim() + "?context=0"; //added .trim()
+        String urlString = base_url + sefer.trim() + "." + perek.trim() + "?context=0"; //added .trim() for accuracy of urlString
 
         new JSONParserTask().execute(urlString);
     }
